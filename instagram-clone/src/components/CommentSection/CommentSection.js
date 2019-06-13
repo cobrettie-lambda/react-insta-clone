@@ -6,7 +6,7 @@ const CommentSection = ({ props }) => {
     return (
         <div className="comment-container">
             <p>
-                <span className="user-comment">
+                <span className="user-commenter">
                     {props.username}
                 </span>
                 {props.text}

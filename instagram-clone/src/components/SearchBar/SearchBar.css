@@ -2,6 +2,8 @@
 
 header {
     height: 5rem;
+    border-bottom: 1px solid #d4d4d4;
+    background-color: #fff;
 }
 
 nav {
@@ -64,4 +66,5 @@ letter-spacing: 1px;
     border: 1px solid #d4d4d4;
     border-radius: 3px;
     text-align: center;
+    font-size: .9rem;
 }

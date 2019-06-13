@@ -17,8 +17,8 @@ const PostContainer = props => {
             </div>
             <div className="interaction">
                 <div className="interact-icons">
-                    <IoIosHeartEmpty />
-                    <FaRegComment />
+                    <IoIosHeartEmpty className="heartIcon" />
+                    <FaRegComment className="commentIcon" />
                 </div>
                 {props.post.likes} likes 
             </div>

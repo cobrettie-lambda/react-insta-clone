@@ -13,7 +13,7 @@ const SearchBar = props => {
                         <IoLogoInstagram />
                     </div>
                     <h3 className="logo-text">
-                        instagram
+                        Instagram
                     </h3>
                 </div>
                 <input classname="search" placeholder="Search"></input>

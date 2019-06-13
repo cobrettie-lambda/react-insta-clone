@@ -10,7 +10,7 @@ const PostContainer = props => {
                 <p>{props.post.username}</p>
             </div>
             <div className="user-post">
-                <img src={props.post.imageUrl} alt="User-post"></img>
+                <img className="user-post-img" src={props.post.imageUrl} alt="User-post"></img>
             </div>
         </div>
     );

@@ -12,7 +12,9 @@ nav {
     vertical-align: middle;
     margin: 0 auto;
     width: 80%;
-    border: 1px solid blue;
+    
+    /* border for testing */
+    /* border: 1px solid blue; */
 }
 
 .logo-container {
@@ -58,4 +60,8 @@ letter-spacing: 1px;
     margin: 0 auto;
     height: 1.5rem;
     width: 12rem;
+    background-color: #fafafa;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    text-align: center;
 }

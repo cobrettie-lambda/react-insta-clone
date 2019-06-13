@@ -16,4 +16,4 @@ const PostContainer = props => {
     );
 };
 
-export default Post PostContainer;
+export default PostContainer;

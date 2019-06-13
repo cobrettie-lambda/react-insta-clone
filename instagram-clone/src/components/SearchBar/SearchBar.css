@@ -5,6 +5,7 @@ header {
 }
 
 nav {
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +21,7 @@ nav {
     align-items: center;
     vertical-align: middle;
     height: 3rem;
-    padding: 1rem;
+    padding: 0 0 0 1rem;
 }
 
 .logo-icon {
@@ -41,5 +42,20 @@ letter-spacing: 1px;
 }
 
 .icon-container {
-    
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem 0 0;
+}
+
+.icon-container div {
+    padding: 0 1rem;
+    font-size: 2rem;
+}
+
+.search {
+    margin: 0 auto;
+    height: 1.5rem;
+    width: 12rem;
 }

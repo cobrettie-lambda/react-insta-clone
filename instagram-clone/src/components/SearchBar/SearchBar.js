@@ -16,7 +16,7 @@ const SearchBar = props => {
                         Instagram
                     </h3>
                 </div>
-                <input classname="search" placeholder="Search"></input>
+                <input className="search" placeholder="Search"></input>
                 <div className="icon-container">
                     <div>
                         <FiCompass />

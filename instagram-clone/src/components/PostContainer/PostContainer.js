@@ -10,7 +10,7 @@ import './Posts.css';
 
 const PostContainer = props => {
     return (
-        <div>
+        <div className="posts-container-wrapper">
             {props.posts.map(p => <Post key={p.imageUrl} post={p} />)}
         </div>
     );

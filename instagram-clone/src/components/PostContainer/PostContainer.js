@@ -1,8 +1,7 @@
 import React from 'react';
 
-import Post from './Post'
-import './Posts.css'
-import CommentSection from '../CommentSection/
+import Post from './Post';
+import './Posts.css';
 
 // import icons
 // import { IoIosHeartEmpty} from "react-icons/io";

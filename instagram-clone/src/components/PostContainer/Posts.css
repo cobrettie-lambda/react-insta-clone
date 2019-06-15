@@ -21,9 +21,10 @@
 
 .post-header {
     display: flex;
+    align-items: center;
 }
 
-post-thumb-wrapper {
+.post-thumb-wrapper {
     height: 50px;
     width: 50px;
 }

@@ -4,7 +4,7 @@ import './SearchBar.css';
 import { IoLogoInstagram, IoIosHeartEmpty } from 'react-icons/io';
 import { FiCompass, FiUser } from "react-icons/fi";
 
-const SearchBar = props => {
+const SearchBar = () => {
     return (
         <header className="header">
             <nav>

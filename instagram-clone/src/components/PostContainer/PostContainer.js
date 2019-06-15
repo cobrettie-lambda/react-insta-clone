@@ -1,12 +1,19 @@
 import React from 'react';
 
-import './PostContainer.css';
-import { IoIosHeartEmpty} from "react-icons/io";
-import { FaRegComment } from "react-icons/fa";
-import CommentSection from '../CommentSection/CommentSection'
+import Post from './Post'
+import './Posts.css'
+import CommentSection from '../CommentSection/
+
+// import icons
+// import { IoIosHeartEmpty} from "react-icons/io";
+// import { FaRegComment } from "react-icons/fa";
+
 
 const PostContainer = props => {
     return (
+        <div>
+            {props.posts.map(p => <Post key={p.imageUrl} post={p} />)}
+        </div>
     );
 };
 

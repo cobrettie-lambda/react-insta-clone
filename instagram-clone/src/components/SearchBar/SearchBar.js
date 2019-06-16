@@ -42,9 +42,10 @@ const SearchBar = props => {
         {/* <img alt="instagram logo" src={''} className="logo-image" 
         /> */}
         <i className="logo-image fab fa-instagram"></i>
+        <h1 className="logo-heading">React Insta-Clone</h1>
       </div>
       <div>
-        <input type="text" placeholder="Search" onKeyDown={props.searchPosts} />
+        <input className="searchbar" type="text" placeholder="Search" onKeyDown={props.searchPosts} />
       </div>
       <div className="social-wrapper">
         <div className="social">

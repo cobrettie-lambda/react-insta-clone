@@ -84,17 +84,26 @@ letter-spacing: 1px;
   background: #ffffff;
 }
 
+.logo-heading {
+  font-size: 2rem;
+  padding: 0 0 0 1rem;
+}
+
 .image-wrapper {
-  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .logo-image {
   height: 100%;
   font-size: 2rem;
+  border-right: 1px solid #373737;
+  padding: 0 1rem 0 8rem;
 }
 
 .social-wrapper {
   display: flex;
+  padding: 0 8rem 0 1rem;
 }
 
 .social {

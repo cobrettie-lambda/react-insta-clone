@@ -87,6 +87,7 @@ letter-spacing: 1px;
 .logo-heading {
   font-size: 1.8rem;
   padding: 0 0 0 1rem;
+  font-family: Helvetica;
 }
 
 .image-wrapper {

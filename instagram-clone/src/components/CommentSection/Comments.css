@@ -2,14 +2,16 @@
     text-align: left;
     padding: 2px;
     margin-left: 4px;
+    font-family: sans-serif;
+    letter-spacing: .2px;
 }
 
 .comment {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1rem;
 }
 
 .user {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.05rem;
 }

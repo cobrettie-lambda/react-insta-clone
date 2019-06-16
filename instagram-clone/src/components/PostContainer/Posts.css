@@ -1,7 +1,7 @@
 .posts-container-wrapper {
     height: 500px;
     width: 50%;
-    margin: 5px auto;
+    margin: 80px auto;
 }
 
 .post-border {
@@ -22,6 +22,7 @@
 .post-header {
     display: flex;
     align-items: center;
+    padding: 20px 1.4rem;
 }
 
 .post-thumb-wrapper {
@@ -32,6 +33,12 @@
 .post-thumb {
     height: 100%;
     border-radius: 50%;
+}
+
+.post-username {
+    padding: 0 0 0 1rem;
+    font-weight: 600;
+    letter-spacing: .6px;
 }
 
 .like-section {

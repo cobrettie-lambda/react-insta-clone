@@ -2,6 +2,7 @@
     height: 500px;
     width: 50%;
     margin: 80px auto;
+    font-family: sans-serif;
 }
 
 .post-border {
@@ -40,7 +41,7 @@
     padding: 0 0 0 1rem;
     font-weight: 600;
     letter-spacing: .6px;
-    font-family: 'Roboto', sans-serif;
+    color: #262626;
 }
 
 .like-section {
@@ -52,15 +53,18 @@
 .like-section-icon1 {
     padding: 10px 5px 5px 15px;
     font-size: 1.8rem;
+     color: #262626;
 }
 
 .like-section-icon2 {
     padding: 10px 5px 5px 15px;
     font-size: 1.8rem;
+     color: #262626;
 }
 
 .like-section-likes {
     display: flex;
     padding: 5px 5px 10px 15px;
     font-weight: 600;
+     color: #262626;
 }

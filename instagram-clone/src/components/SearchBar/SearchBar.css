@@ -80,6 +80,7 @@ letter-spacing: 1px;
   line-height: 70px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: #ffffff;
 }
 
@@ -89,6 +90,7 @@ letter-spacing: 1px;
 
 .logo-image {
   height: 100%;
+  font-size: 2rem;
 }
 
 .social-wrapper {
@@ -97,4 +99,5 @@ letter-spacing: 1px;
 
 .social {
   width: 50px;
+  font-size: 2rem;
 }
